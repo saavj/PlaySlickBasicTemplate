@@ -1,0 +1,12 @@
+# DC schema
+
+# --- !Ups
+
+CREATE TABLE EXAMPLE (
+    ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    EXAMPLE varchar(255) NOT NULL
+);
+
+# --- !Downs
+
+DROP TABLE EXAMPLE;

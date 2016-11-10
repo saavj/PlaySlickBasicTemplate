@@ -1,0 +1,14 @@
+This is your Play application
+=============================
+
+To run tests
+-------------
+
+sbt clean test
+
+To run
+-------
+
+sbt run
+
+
